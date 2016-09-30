@@ -16,12 +16,17 @@ table { border-collapse:collapse; border-spacing:0; }
 	display: block;
 	text-align: center;
 	line-height: 100px;
-	background-color: rgba(0, 134, 139, 0.5);
 	position: absolute;
 	width: 100px;
 	height: 100px;
 	-webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+.maintable td:nth-child(odd)>span{
+	background-color: rgba(0, 134, 139, 0.5);
+}
+.maintable td:nth-child(even)>span{
+		background-color: rgba(204, 0, 0, 0.5);;
 }
 
