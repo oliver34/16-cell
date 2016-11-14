@@ -27,6 +27,6 @@ table { border-collapse:collapse; border-spacing:0; }
 	background-color: rgba(0, 134, 139, 0.5);
 }
 .maintable td:nth-child(even)>span{
-		background-color: rgba(204, 0, 0, 0.5);;
+		background-color: rgba(204, 0, 0, 0.5);
 }
 

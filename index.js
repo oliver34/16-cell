@@ -3,6 +3,7 @@
 var spans = document.getElementsByTagName("span"),
 	startItem = null,endItem = null;
 
+
 /*初始化单元格位置*/
 Array.prototype.forEach.call(spans,function(span) {
     span.style.left = $(span).offset().left+"px";
