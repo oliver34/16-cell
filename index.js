@@ -9,7 +9,6 @@ Array.prototype.forEach.call(spans,function(span) {
     span.style.left = $(span).offset().left+"px";
     span.style.top = $(span).offset().top+"px";
 });
-
 /*开始拖拽*/
 $("table").on("dragstart ","span",function(e){
 	startItem = $(this);
